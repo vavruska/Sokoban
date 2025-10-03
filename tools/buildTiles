@@ -1,0 +1,2 @@
+#!/bin/bash
+node png2iigs.js /nas/public/A2/sokoban/png/tileset.png --format orcac --as-tile-data --max-tiles 160 > ../tileData.c

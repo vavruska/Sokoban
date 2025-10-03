@@ -1,0 +1,11 @@
+#include "types.rez"
+
+#define COPY_YEAR "2025"
+
+resource rVersion (0x00000001, $0000) {
+        {1, 0, 0, release, 0},
+        VerUS,
+        "Sokoban",
+        "Copyright \0xa9 "COPY_YEAR" Chris Vavruska"
+};
+

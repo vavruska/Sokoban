@@ -1,0 +1,33 @@
+/* textual error messages corresponding to the #defines in globals.h */
+char *errmess[] = {
+    "\pillegal error number",
+    "\pcannot open screen file",
+    "\pmore than one player position in screen file",
+    "\pillegal char in screen file",
+    "\pno player position in screenfile",
+    "\ptoo many rows in screen file",
+    "\ptoo many columns in screenfile",
+    "\pquit the game",
+    "\pEmpty Error",
+    "\pcannot open savefile",
+    "\perror writing to savefile",
+    "\pcannot stat savefile",
+    "\perror reading savefile",
+    "\pcannot restore, your savefile has been altered",
+    "\pgame saved",
+    "\ptoo many entries in score table",
+    "\pcannot open score file",
+    "\perror reading scorefile",
+    "\perror writing scorefile",
+    "\pEmpty Error",
+    "\pEmpty Error",
+    "\pEmpty Error",
+    "\pEmpty Error",
+    "\pcannot find file to restore",
+    "\pEmpty Error",
+    "\pEmpty Error",
+    "\pEmpty Error",
+    "\pcannot allocate string memory",
+    "\pEmpty Error"
+};
+
